@@ -12,7 +12,7 @@ variable "Environment" {
 
 variable "Owner" {
   type    = string
-  default = "itochu"
+  default = "knohira"
 }
 
 variable "Project" {
@@ -62,12 +62,12 @@ variable "tostop" {
 
 variable "time_period_start" {
   type    = string
-  default = "2021-08-05_00:00"
+  default = "2021-08-10_00:00"
 }
 
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
-  default     = "itochu"
+  default     = "knohira"
 }
 
 variable "region" {
@@ -78,12 +78,12 @@ variable "region" {
 
 variable "address_space" {
   description = "The address space that is used by the virtual network. You can supply more than one address space. Changing this forces a new resource to be created."
-  default     = "10.0.0.0/16"
+  default     = "10.164.205.0/24"
 }
 
 variable "subnet_prefix" {
   description = "The address prefix to use for the subnet."
-  default     = "10.0.10.0/24"
+  default     = "10.164.205.0/28"
 }
 
 variable "instance_type" {

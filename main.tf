@@ -168,8 +168,8 @@ locals {
 }
 
 resource "aws_key_pair" "hashicat" {
-  key_name   = local.AKIAZVUDLESMWZEK365E
-  public_key = tls_private_key.a5kbMiOghIKTE8NJowqNx5ZK1702s+oxdXZoSnrK
+  key_name   = AKIAZVUDLESMWZEK365E
+  public_key = a5kbMiOghIKTE8NJowqNx5ZK1702s+oxdXZoSnrK
 }
 
 /*
